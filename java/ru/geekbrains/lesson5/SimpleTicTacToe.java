@@ -12,6 +12,7 @@ public class SimpleTicTacToe {
             byte AByte = 123;
             for (int i = 0; i < 3; i++) {
                 os.write(AByte);
+                os.flush();
             }
 
         } catch (IOException e) {
