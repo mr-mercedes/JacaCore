@@ -10,5 +10,9 @@ public class Program {
         } catch (IOException | RuntimeException exception){
             System.out.println(exception.getMessage());
         }
+
+        Tree tree = new Tree();
+        tree.print(new File("src"), "", true);
+
     }
 }
